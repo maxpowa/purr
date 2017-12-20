@@ -1,18 +1,24 @@
 # purr
 
-TODO: Write a description here
+In case you like the pomf-standard api enough to require its existence.
 
 ## Installation
 
-TODO: Write installation instructions here
+`~/.bin/` should be replaced with an appropriate directory on your path.
+
+```
+$ crystal build src/cli.cr -o purr
+$ mv purr ~/.bin/
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```
+Usage: purr [arguments]
+    -p, --port=PORT                  Specifies port to run server on
+    -i, --client-id=ID               Specifies client id to use with Imgur
+    -h, --help                       Show this help
+```
 
 ## Contributing
 
